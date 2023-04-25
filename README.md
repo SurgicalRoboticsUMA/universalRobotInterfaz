@@ -59,7 +59,7 @@ $ roslaunch uma_ur_launch ex-ur3-teleop.launch
 ```
 Open other terminal to launch de moveit node
 ```bash
-roslaunch ur3_moveit_config move_group.launch
+$ roslaunch ur3_moveit_config move_group.launch
 ```
 ## UR3 in the lab
 The IP for the autonomous robot is: 192.168.1.20
