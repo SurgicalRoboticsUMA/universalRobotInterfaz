@@ -43,13 +43,22 @@ $ catkin_make
 $ source devel/setup.bash
 ```
 ## To Launch
-```bash
-roslaunch urx_driver init.launch
-```
+
 Before launching the node, make sure that your UR3 robot (real robot or simulator) is running, and that you have set the ip address of the robot properly in the launch file. The IP address should be the same of the one displayed in the robot console or simulator.
 
-Dowloads the packages _ and copy it in your catkin_ws/src then compile your workspace
+Dowloads the packages uma_ur_launch from https://drive.google.com/drive/folders/1ORcxtGVBTH6eXJIcqQ8fm19fdUVjTGwb?usp=share_link
+and copy it in your catkin_ws/src, then compile your workspace
 ```
 $ catkin_make
 ```
+For the autonomous robot
+```bash
+roslaunch uma_ur_launch ex-ur3-auto.launch 
+```
+For the teleoperated robot
+```bash
+roslaunch uma_ur_launch ex-ur3-teleop.launch 
+```
 ## UR3 in the lab
+The IP for the autonomous robot is: 192.168.1.20
+The IP for the teleoperated robot is: 192.168.1.10
