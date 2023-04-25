@@ -57,7 +57,6 @@ For the teleoperated robot
 ```bash
 $ roslaunch uma_ur_launch ex-ur3-teleop.launch 
 ```
-
 Open other terminal to launch de moveit node
 ```bash
 roslaunch ur3_moveit_config move_group.launch
