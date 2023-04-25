@@ -51,12 +51,13 @@ $ catkin_make
 ```
 For the autonomous robot
 ```bash
-roslaunch uma_ur_launch ex-ur3-auto.launch 
+$ roslaunch uma_ur_launch ex-ur3-auto.launch 
 ```
 For the teleoperated robot
 ```bash
-roslaunch uma_ur_launch ex-ur3-teleop.launch 
+$ roslaunch uma_ur_launch ex-ur3-teleop.launch 
 ```
 ## UR3 in the lab
 The IP for the autonomous robot is: 192.168.1.20
+
 The IP for the teleoperated robot is: 192.168.1.10
