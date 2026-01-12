@@ -65,3 +65,6 @@ $ roslaunch ur3_moveit_config move_group.launch
 The IP for the autonomous robot is: 192.168.1.20
 
 The IP for the teleoperated robot is: 192.168.1.10
+
+## UStep by step explanation of a dual-robot setup
+see https://ur-documentation.readthedocs.io/en/latest/examples/dual_robot/step_by_step.html
